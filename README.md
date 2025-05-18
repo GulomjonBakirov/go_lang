@@ -1,4 +1,4 @@
-# go_lang
+# Go Programming language
 
 Learning Go Lang Path
 
