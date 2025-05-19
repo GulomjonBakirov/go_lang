@@ -7,6 +7,7 @@ import (
 
 func main() {
 	syntax.Variables()
+	syntax.Loop()
 
 	fmt.Println("Hello World")
 }
