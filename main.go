@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"go_lang/syntax"
-)
+import "go_lang/syntax"
 
 // func main() {
 // 	syntax.Variables()
@@ -18,21 +15,12 @@ import (
 // 	fmt.Printf("Hello World %d \n", sum)
 // }
 
-func changeValue(n int) {
-	n = 10
-
-	fmt.Println(n)
-}
-
 func main() {
-	number := 10
+	// number := 10
 
-	syntax.Pointer()
-	syntax.ChangeValue(&number)
-	fmt.Println(number)
-
-	changeValue(number)
-
-	fmt.Println(number)
+	// syntax.Pointer()
+	// syntax.ChangeValue(&number)
+	// fmt.Println(number)
+	syntax.Struct()
 
 }

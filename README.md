@@ -29,6 +29,40 @@ func main() {
 
 ![PrintF Image](images/printF.png)
 
+<b>Structs</b>
+
+```go
+type Person struct {
+  name string
+  age number
+}
+
+// embeded struct
+type Employee struct {
+  Person
+  company string
+}
+```
+
+attach function to struct
+
+- directly
+- with pointers
+
+```go
+
+func (p Person) greet() {
+  fmt.Println("Wussup ", p.name)
+}
+
+-------------------------------
+
+func (p *Person) increaseAge() {
+  p.age++
+}
+
+```
+
 ### Projects
 
 - [ ] Build cli
