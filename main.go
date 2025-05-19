@@ -8,6 +8,12 @@ import (
 func main() {
 	syntax.Variables()
 	syntax.Loop()
+	sum := syntax.AddSum(1, 2)
+	success, result := syntax.Substract(4, 2)
 
-	fmt.Println("Hello World")
+	if success {
+		fmt.Println(result)
+	}
+
+	fmt.Printf("Hello World %d \n", sum)
 }
