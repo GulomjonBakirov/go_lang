@@ -8,6 +8,10 @@ Learning Go Lang Path
 - [ ] Advanced Sytax (struct, interfaces, pointers)
 - [ ] Explore Concurrency (goroutines, channels)
 
+#### Variables
+
+- Documentation [variables](syntax/variables.md)
+
 ### Projects
 
 - [ ] Build cli
