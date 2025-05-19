@@ -25,6 +25,10 @@ func main() {
 
 ```
 
+<b>PrintF</b> Values
+
+![PrintF Image](images/printF.png)
+
 ### Projects
 
 - [ ] Build cli
